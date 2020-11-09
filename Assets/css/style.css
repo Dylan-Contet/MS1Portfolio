@@ -362,18 +362,72 @@ border-bottom: 2px solid #8fd6fa;
 
 
 /*---------------------------my work section*/
-#work{
+#mywork1{
     padding: 0;
     margin: 0;
+    background-color: #110323;
+    border-bottom: 2px solid #8fd6fa;
 
 }
 
 .mywork{
-     font-size: 50px;
+     font-size: 75px;
      color: rgb(0, 246, 164);
      padding-left: 20px;
 }
 
+.project1{
+   height: 600px;
+   width: 100%;
+   color: #258454;
+   font-size: 45px;
+   text-align: center;
+}
+
+.image1{
+     height: 500px;
+     width: 400px;
+}
+
+.project2{
+   height: 600px;
+   width: 100%;
+   color: #258454;
+   font-size: 45px;
+   text-align: center;
+}
+
+.image2{
+     height: 400px;
+     width: 500px;
+}
 
 
 /*---------------------------my work section end */
+
+
+/*---------------------------Contact Me */
+#contactme{
+     margin: 0;
+     padding: 0;
+     background-color: #110323;
+}
+
+.contme{
+    font-size: 75px;
+     color: #8ee4af;
+     padding-left: 20px;
+}
+
+.email{
+    font-size: 45px;
+    padding-left: 20px;
+    padding-top: 40px;
+}
+
+#emaillogo{
+    left: 50%;
+}
+
+
+/*---------------------------Contact Me END  */
