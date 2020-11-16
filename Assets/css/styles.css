@@ -63,6 +63,7 @@ a{
       color: transparent;
       animation: text_reveal .5s ease forwards;
       animation-delay: 1.5s;
+      
 
 }
 #hero h1:nth-child(1){
@@ -137,7 +138,9 @@ a{
 }
 
 section {
-     background-color: #110323
+     background-color: #110323;
+     padding-top: 45px;
+     padding-bottom: 45px;
 }
 
 section div{
@@ -229,7 +232,7 @@ section select{
 
 @media (max-width: 1300px){
     
-    section div {display: none;}
+    #navibars {display: none;}
 
 }
 
@@ -267,6 +270,8 @@ background-color: #110323;
 color: white;
 border-top: 2px solid #8fd6fa;
 border-bottom: 2px solid #8fd6fa;
+padding-top: 75px;
+padding-bottom: 75px;
 }
 
 .meabout2{
@@ -367,6 +372,8 @@ border-bottom: 2px solid #8fd6fa;
     margin: 0;
     background-color: #110323;
     border-bottom: 2px solid #8fd6fa;
+    padding-top: 85px;
+padding-bottom: 75px;
 
 }
 
@@ -374,6 +381,8 @@ border-bottom: 2px solid #8fd6fa;
      font-size: 75px;
      color: rgb(0, 246, 164);
      padding-left: 20px;
+ 
+
 }
 
 .project1{
@@ -402,6 +411,15 @@ border-bottom: 2px solid #8fd6fa;
      width: 500px;
 }
 
+.image1:hover{
+    background-color: black;
+    opacity: 15%;
+}
+
+.image2:hover{
+    background-color: black;
+    opacity: 15%;
+}
 
 /*---------------------------my work section end */
 
@@ -409,25 +427,85 @@ border-bottom: 2px solid #8fd6fa;
 /*---------------------------Contact Me */
 #contactme{
      margin: 0;
-     padding: 0;
+     
      background-color: #110323;
+
+       
+    
 }
 
 .contme{
     font-size: 75px;
      color: #8ee4af;
      padding-left: 20px;
+     padding-top: 80px;
+    
 }
 
 .email{
     font-size: 45px;
     padding-left: 20px;
     padding-top: 40px;
+    color: #5cdb95;
+    height: 100px;
+}
+.linkin{
+    font-size: 45px;
+    padding-left: 20px;
+    padding-top: 40px;
+    color: #5cdb95;
+    height: 100px;
+}
+.fb{
+    font-size: 45px;
+    padding-left: 20px;
+    padding-top: 40px;
+    color: #5cdb95;
+    height: 100px;
+    border-bottom: 2px solid #8fd6fa;
+    
 }
 
-#emaillogo{
-    left: 50%;
+
+.fa-envelope-open:hover{
+    background-color: black;
+    opacity: 15%;
+}
+.fa-linkedin:hover{
+    background-color: black;
+    opacity: 15%;
 }
 
-
+.fa-facebook:hover{
+    background-color: black;
+    opacity: 15%;}
 /*---------------------------Contact Me END  */
+
+
+/*---------------------------footer  */
+#footer{
+    height: 300px;
+    background-color: #110323;
+    padding-bottom: 75px;
+     padding-top: 75px;
+}
+
+.cvdown{
+    font-size: 45px;
+    padding-left: 20px;
+    padding-top: 40px;
+    color: #5cdb95;
+    height: 100px;
+    text-align: center;
+}
+
+.end{
+    color: #258454;
+    font-size: 20px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+/*---------------------------footer  END  */
+
+

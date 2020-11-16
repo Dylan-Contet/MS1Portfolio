@@ -3,13 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Assets/css/style.css">
-    <link rel="stylesheet" hre="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-<script src="https://kit.fontawesome.com/a607344c5d.js" crossorigin="anonymous"></script>    
+    <link rel="stylesheet" href="Assets/css/styles.css">
+    <script src="https://kit.fontawesome.com/a607344c5d.js" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 <title>Portfolio</title>
 </head>
 <body>
+
+  
    <!--------------------Hero Section-->
    <header id="hero">
        <div class="hero contain">
@@ -17,32 +21,32 @@
             <h1>Hello, <span></span></h1>
             <h1>My Name Is <span></span></h1>
             <h1>Dylan Contet <span></span></h1>
-            <a href="#" type="button" class="CTA">Portfolio</a>
+            <a href="#nav" type="button" class="CTA">Portfolio</a>
           </div>
        </div>
    </header>
 <!------------------------hero end   -->
 
 <!---------------------------nav section-->
-<section id="navibars"> 
+<section id="navibars"> <a name="nav"></a>
 
      <div class="row no-gutters">
          <div class="col">
              <ul id="navbar" class="menu-container list-inline">
-              <li class="col-6 col-sm-3 back-color-about list-inline-item">
+              <li class="3 back-color-about list-inline-item">
                  <a href="#about"><i>About Me</i></a>
               </li>
 
-              <li class="col-6 col-sm-3 back-color-work list-inline-item">
-                 <a href="#"><i>My Work</i></a>
+              <li class="back-color-work list-inline-item">
+                 <a href="#work"><i>My Work</i></a>
               </li>
 
-              <li class="col-6 col-sm-3 back-color-contact list-inline-item">
-                 <a href="#"><i>Contact Me</i></a>
+              <li class=" back-color-contact list-inline-item">
+                 <a href="#contact"><i>Contact Me</i></a>
               </li>
 
-              <li class="col-6 col-sm-3 back-color-download list-inline-item">
-                 <a href="#"><i>Download</i></a>
+              <li class=" back-color-download list-inline-item">
+                 <a href="Assets/CV/cv.docx" download="MyCV"><i>Download</i></a>
               </li>
              </ul>
          </div>       
@@ -83,7 +87,7 @@
 <!---------------------------About me section end -->
 
 <!---------------------------my work section  -->
-<section id="mywork1">
+<section id="mywork1"><a name="work"></a>
  <h1 class="mywork">My Work</h1>
  
     <div class="project1">
@@ -101,19 +105,19 @@
 <!---------------------------my work section end -->
 
 <!---------------------------Cpntact ME -->
-<section id="Contactme">
+<section id="Contactme"><a name="contact"></a>
     <h1 class="contme">Contact Me</h1>
 
      <div class="email">
-       <div>Email <a href="#" target="_blank"><i class="far fa-envelope-open" id="emaillogo"></i></a></div>
+       <div>Email <a href="mailto: contetdylan5@gmail.com" target="_blank"><i class="far fa-envelope-open"></i></a></div>
      </div>
 
      <div class="linkin">
-       <div>LinkedIn <a href="#" target="_blank"><i></i></a></div>
+       <div>LinkedIn <a href="https://www.linkedin.com/in/dylan-contet-439024116/" target="_blank"><i class="fab fa-linkedin"></i></a></div>
      </div>
 
      <div class="fb">
-       <div>Facebook <a href="#" target="_blank"><i></i></a></div>
+       <div>Facebook <a href="https://www.facebook.com/dylanjohn.contet/" target="_blank"><i class="fab fa-facebook"></i></a></div>
      </div>     
 
 
@@ -121,5 +125,49 @@
 </section>
 <!---------------------------Cpntact ME End-->
 
+<!---------------------------Footer-->
+
+
+<footer id="footer">
+   <div>
+      <div class="cvdown"><p>Please feel free to download a hardcopy of my cv here <a href="Assets/CV/cv.docx" download="MyCV"><i class="fas fa-download"></i></a></p></div>   
+   </div>
+
+  <p class="end">Website Created by Dylan John Contet</p>
+
+</footer>
+<!---------------------------Footer ENd -->
+
+ <!-------------------------------POP UP  -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <div class="modal-title"><h1>Welcome</h1></div>
+      </div>
+      <div class="modal-body">
+        <p>To my Portfolio Website I hope you like it</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+<button type="button" class="btn btn-sm" data-toggle="modal" data-target="#myModal">Open Modal</button>
+
+<script type="">
+  $(document).ready(function (){
+   setTimeout(function () {
+       $("#myModal") .modal('show');
+   }, 500);
+
+  })
+</script>
+
+   
+<!-------------------------------POP UP END -->
 </body>
 </html>
