@@ -130,7 +130,23 @@ a{
 /*---------------------KeyFrames Section END*/
 
 
-/*---------------------nav section*/
+/*------------new nav---*/
+.newnav {
+  
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding-left: 0px;
+  box-shadow: 0px 0px 8px 0px;
+  -webkit-box-shadow: 0px 0px 8px 0px;
+  -moz-box-shadow: 0px 0px 8px 0px;
+  background-color: whitesmoke;
+  z-index: 100;
+  display: inline-block;
+  
+}
+
 .navibars{
      margin: 0;
     
@@ -139,7 +155,6 @@ a{
 
 section {
      background-color: #110323;
-     padding-top: 45px;
      padding-bottom: 45px;
 }
 
@@ -147,55 +162,39 @@ section div{
       height: 80px;
 }
 
-section div ul li a{
-       margin: 100px;
-       color: #edf5e1;
-       
-}
 
 .back-color-about{
-       background-color: #05386b;
-       display: inline-block;
+       background-color:;
+      
        font-size: 30px;
-       margin-top: 10px;
        height: 50px;
        width: 24%;
-       text-align: center;
-       margin-left: 30px;
-}
+       text-decoration: none;
+      }
 
 .back-color-work{
-       background-color: #5cdb95;
-       display: inline-block;
+       background-color: ;
        font-size: 30px;
-       margin-top: 10px;
-       height: 50px;
-       width: 24%;
+        width: 24%;
        text-align: center;
-       
+       text-decoration: none;
 }
 
 .back-color-contact{
-       background-color: #379683;
-       display: inline-block;
+       background-color: ;
        font-size: 30px;
-       margin-top: 10px;
-       height: 50px;
        width: 24%;
        text-align: center;
-       
-}
+       text-decoration: none;
+       }
 
 .back-color-download{
-       background-color: #8ee4af;
-       display: inline-block;
+       background-color: ;
        font-size: 30px;
-       margin-top: 10px;
-       height: 50px;
        width: 24%;
        text-align: center;
-      
-}
+       text-decoration: none;
+      }
 
 .back-color-about:hover {
        background-color: #edf5e1;
