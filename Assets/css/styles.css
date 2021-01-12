@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+*{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+
+html{
+     font-size: 10px;
+     font-family: "Monserrat", sans-serif ;
+}
+
+a{
+    text-decoration: none;
+}
+
+.contain{
+      min-height: 100vh;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      display: flex;
+}
+
+
+/*---------------------Hero Section*/
+
+
+
+#hero{
+    background :url(../image/IMG.jpg) ;
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    z-index: 1;
+}
+
+#hero::after{
+      content: "";
+       position: absolute;
+       left: 0;
+       top: 0;
+       height: 100%;
+       width: 100%;
+       background-color: black;
+       opacity: 0.7;
+       z-index: -1;
+}
+
+#hero .hero{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 50px;
+    justify-content: flex-start
+}
+
+#hero h1{
+      display: block;
+      width: fit-content;
+      font-size: 4rem;
+      position: relative;
+      color: transparent;
+      animation: text_reveal .5s ease forwards;
+      animation-delay: 1.5s;
+      
+
+}
+#hero h1:nth-child(1){
+    animation-delay: .5s;
+}
+#hero h1:nth-child(2){
+    animation-delay: 1.5s;
+}
+#hero h1:nth-child(3){
+    animation-delay: 2.5s;
+}
+
+#hero h1 span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background-color: crimson;
+    animation: text_reveal_box 1s ease;
+    animation-delay: .3s;
+}
+
+#hero h1:nth-child(1) span{
+    animation-delay: 1s
+}
+#hero h1:nth-child(2) span{
+    animation-delay: 2s
+}
+#hero h1:nth-child(3) span{
+    animation-delay: 3s
+}
+
+#hero .CTA{
+    display: inline-block;
+    padding: 10px 30px;
+    color: #edf5e1;
+    background-color: transparent;
+    border: 2px solid #edf5e1;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-top: 30px;
+    transition: .5s ease ;
+   
+}
+
+#hero .CTA:hover{
+      color: #5cdb95;
+      background-color: #05386b;
+}
+
+/*---------------------Hero Section End*/
+
+/*---------------------KeyFrames Section*/
+ 
+
+  @keyframes text_reveal{
+          100%{
+              color: white;
+          }
+
+  }
+/*---------------------KeyFrames Section END*/
+
+
+/*------------new nav---*/
+.newnav {
+  height: 60px;
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0px 0px 8px 0px;
+  -webkit-box-shadow: 0px 0px 8px 0px;
+  -moz-box-shadow: 0px 0px 8px 0px;
+  background-color: whitesmoke;
+  z-index: 100;
+  display: inline-block;
+  
+  
+  
+}
+
+.aboutme1{
+    padding-left: 60px;
+    color: black;
+}
+.contactme1{
+    padding-left: 60px;
+    color: black;
+}
+.mywork1{
+    padding-left: 60px;
+    color: black;
+}
+.download1{
+    padding-left: 60px;
+    color: black;
+}
+
+.back-color-about{
+      
+       font-size: 25px;
+       display: inline-block;
+      }
+
+.back-color-work{
+       
+       font-size: 25px;
+       text-align: center;
+       display: inline-block;
+      
+}
+
+.back-color-contact{
+       
+       font-size: 25px;
+       text-align: center;
+       display: inline-block;
+       
+       }
+
+.back-color-download{
+       
+       font-size: 25px;
+       text-align: center;
+       display: inline-block;;
+      
+      }
+
+
+section select{
+    display: none;
+}
+
+
+
+
+
+
+section select{
+     color: #05386b;
+     background-color: #5cdb95; 
+     appearance: none;
+     height: 50px;
+     width: 100px;
+     left: 50px;
+     margin: 0 auto;
+     display: block;
+     text-align: center;
+}
+
+section:hover select{
+    background-color: #05386b;
+    color: #5cdb95
+}
+
+/*---------------------nav section end*/
+
+
+
+/*---------------------about me section*/
+
+
+
+.Aboutmelist, .myworklist, .Futurework{
+    font-size: 20px;
+    padding-left: 60px;
+}
+
+.Aboutmeh2, .aboutmework, .aboutmefuture{
+    padding-left: 30px;
+}
+
+
+
+
+
+
+/*---------------------about me section end*/
+
+
+
+/*---------------------------my work section*/
+#mywork1{
+    padding: 0;
+    margin: 0;
+    border-bottom: 2px solid black;
+    padding-top: 85px;
+padding-bottom: 75px;
+
+}
+
+.mywork{
+     font-size: 75px;
+     color: black;
+     padding-left: 20px;
+ 
+
+}
+
+.project1{
+   height: 600px;
+   width: 100%;
+   color: black;
+   font-size: 45px;
+   text-align: center;
+}
+
+.image1{
+     height: 500px;
+     width: 400px;
+}
+
+.project2{
+   height: 600px;
+   width: 100%;
+   color: black;
+   font-size: 45px;
+   text-align: center;
+}
+
+.image2{
+     height: 400px;
+     width: 500px;
+}
+
+.image1:hover{
+    background-color: black;
+    opacity: 15%;
+}
+
+.image2:hover{
+    background-color: black;
+    opacity: 15%;
+}
+
+/*---------------------------my work section end */
+
+
+/*---------------------------Contact Me */
+#contactme{
+     margin: 0;
+     background-color: #b8b8b8;
+    }
+
+.contme{
+    background-color: #b8b8b8;
+    font-size: 75px;
+     color: black;
+     padding-left: 20px;
+     padding-top: 80px;
+    
+}
+
+.email{
+    font-size: 45px;
+    padding-left: 20px;
+    padding-top: 40px;
+    color: black;
+    height: 100px;
+}
+.linkin{
+    font-size: 45px;
+    padding-left: 20px;
+    padding-top: 40px;
+    color: black;
+    height: 100px;
+}
+.fb{
+    font-size: 45px;
+    padding-left: 20px;
+    padding-top: 40px;
+    color: black;
+    height: 100px;
+    border-bottom: 2px solid black;
+    
+}
+
+
+.fa-envelope-open:hover{
+    background-color: black;
+    opacity: 15%;
+}
+.fa-linkedin:hover{
+    background-color: black;
+    opacity: 15%;
+}
+
+.fa-facebook:hover{
+    background-color: black;
+    opacity: 15%;}
+/*---------------------------Contact Me END  */
+
+
+/*---------------------------footer  */
+#footer{
+    height: 300px;
+    
+    padding-bottom: 75px;
+     padding-top: 75px;
+}
+
+.cvdown{
+    font-size: 45px;
+    padding-left: 20px;
+    padding-top: 40px;
+    color: black;
+    height: 100px;
+    text-align: center;
+}
+
+.end{
+    color: black;
+    font-size: 20px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+/*---------------------------footer  END  */
+
+
+.vid1{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
