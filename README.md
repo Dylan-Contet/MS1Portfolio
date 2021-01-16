@@ -5,11 +5,13 @@
 
 
 # Features
-1. Although there are no needed features for external users this website allows me the  flexability of guiding people to showcase something i have created as well as giving them a more casual way of viewing my working history as well as projects.
+site allows me the  flexability of guiding people to showcase something i have created as well as giving them a more casual way of viewing my working history as well as projects.
 
 # testing
 1. tried various screen sizes too see how website interacts with them and test accordingly
-1. making sure all clickable links working
+2. making sure all clickable links working
+3. Looked viewed website on various devices such as my phone tablet and pc, as well as my laptop to make sure all screensizes are accomidated.
+
 
 # Deployment
 1. using github pages was used to deploy this website 
