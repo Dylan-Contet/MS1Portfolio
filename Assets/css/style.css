@@ -29,7 +29,7 @@ a{
 
 
 #hero{
-    background :url(../image/IMG.jpg) ;
+    background :url(../image/img.jpg) ;
     background-size: cover;
     background-position: top center;
     position: relative;
@@ -143,9 +143,6 @@ a{
   background-color: whitesmoke;
   z-index: 100;
   display: inline-block;
-  
-  
-  
 }
 
 .aboutme1{
@@ -196,137 +193,51 @@ a{
       }
 
 
-section select{
-    display: none;
+
+
+@media screen and (max-width: 675px) {
+  .newnav {display: none;}
+}
+
+/*----smalls screennav*/
+#smnavicon{
+    font-size: 35px;
+    color: black;}
+    
+#smnav{
+    background-color: whitesmoke;
+    position: fixed !important;
+    z-index: 2;
+    border: none;
+    width: 100%;
+    padding-left: 48%;
+    list-style: none;
 }
 
 
 
-
-
-
-section select{
-     color: #05386b;
-     background-color: #5cdb95; 
-     appearance: none;
-     height: 50px;
-     width: 100px;
-     left: 50px;
-     margin: 0 auto;
-     display: block;
-     text-align: center;
+@media screen and (min-width: 675px) {
+  .navsmall {display: none;}
 }
-
-section:hover select{
-    background-color: #05386b;
-    color: #5cdb95
-}
+/*----smalls screennav end */ 
 
 /*---------------------nav section end*/
 
-
-
 /*---------------------about me section*/
 
-#meabout{
-margin: 0;
-padding-left: 11%;
-
-color: white;
-border-top: 2px solid black;
-border-bottom: 2px solid black;
-padding-top: 75px;
-padding-bottom: 75px;
-}
-
-.meabout2{
-    font-size: 30px;
-}
-
-.heading1{
-     color: #fff
-}
-
-.heading2{
-    
-    color: rgb(0, 246, 164);
-    font-size: 75px;
-}
-
-.id1 {
-    color: #8fd6fa
-}
-
-.name1{
-    color: #258454;
-    text-transform: uppercase;
-}
-
-.name{
-    color: #fa5300;
+.Aboutmelist, .myworklist, .Futurework{
+    font-size: 20px;
+    padding-left: 60px;
+    padding-right: 20px;
 
 }
 
-.dob1{
-    color: #258454;
+.Aboutmeh2, .aboutmework, .aboutmefuture{
+    padding-left: 30px;
 }
 
-.dob{
-    color: #fa5300;
-}
-
-.id2 {
-    color: #8fd6fa;
-}
-
-.work{
-     color: #258454;
-}
-
-.workexp{
-     color: #fa5300;
-}
-
-.id3 {
-    color: #8fd6fa;
-}
-
-.date1{color: #258454;}
-
-.work1{ color: #fa5300;}
-
-.loc1{color: #b00000}
-
-.title1{color: #fffb00}
-
-.role1{color:#8fd6fa; }
-
-.id4 {
-    color: #8fd6fa
-}
-.date2{color: #258454;}
-
-.work2{ color: #fa5300;}
-
-.loc2{color: #b00000}
-
-.title2{color: #fffb00}
-
-.role2{color:#8fd6fa; }
-
-.id5 {
-    color: #8fd6fa
-}
-
-.date3{color: #258454;}
-
-.work3{ color: #fa5300;}
-
-.loc3{color: #b00000}
-
-.title3{color: #fffb00}
-
-.role3{color:#8fd6fa; }
+.Aboutmesection{
+   border-bottom: 2px solid black;}
 /*---------------------about me section end*/
 
 
@@ -336,8 +247,8 @@ padding-bottom: 75px;
     padding: 0;
     margin: 0;
     border-bottom: 2px solid black;
-    padding-top: 85px;
-padding-bottom: 75px;
+    padding-top: 65px;
+padding-bottom: 100px;
 
 }
 
@@ -358,8 +269,8 @@ padding-bottom: 75px;
 }
 
 .image1{
-     height: 500px;
-     width: 400px;
+     height: 60%;
+     width: 80%;
 }
 
 .project2{
@@ -371,8 +282,8 @@ padding-bottom: 75px;
 }
 
 .image2{
-     height: 400px;
-     width: 500px;
+     height: 50%;
+     width: 80%;
 }
 
 .image1:hover{
@@ -391,11 +302,11 @@ padding-bottom: 75px;
 /*---------------------------Contact Me */
 #contactme{
      margin: 0;
-     background-color: #b8b8b8;
+     background-color: white;
     }
 
 .contme{
-    background-color: #b8b8b8;
+    background-color: white;
     font-size: 75px;
      color: black;
      padding-left: 20px;
@@ -445,7 +356,7 @@ padding-bottom: 75px;
 
 /*---------------------------footer  */
 #footer{
-    height: 300px;
+    height: 400px;
     
     padding-bottom: 75px;
      padding-top: 75px;
@@ -454,7 +365,7 @@ padding-bottom: 75px;
 .cvdown{
     font-size: 45px;
     padding-left: 20px;
-    padding-top: 40px;
+    padding-bottom: 30px;
     color: black;
     height: 100px;
     text-align: center;
@@ -471,8 +382,7 @@ padding-bottom: 75px;
 
 
 .vid1{
-    padding: 0;
+    padding-top: 0px;
     margin: 0;
     width: 100%;
 }
-
