@@ -3,9 +3,13 @@
 2. My Work
 3. How to Contact me.
 4. Download my CV
-<img src="Website.png"
-     alt="Website pic"
-     style="float: left; margin-right: 10px;" />
+
+<img src="Website.PNG"
+     alt="Website pic"/>
+
+
+
+
 
 # UX 
 1. This is to showcase my skills and work as well as tell a little about myself.
