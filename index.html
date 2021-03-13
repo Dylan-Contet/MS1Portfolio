@@ -1,197 +1,418 @@
+
+
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="Assets/css/styles.css">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <script src="https://kit.fontawesome.com/a607344c5d.js" crossorigin="anonymous"></script>
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-     
 
-<title>Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Portfolio</title>
+
 </head>
+
 <body>
-<!-------------New Nav Section-->
-<nav class="navbar  navbar-light bg-light newnav"  id="navbarNav">
-  <div >
-    <ul class="navbar-nav list-unstyled ">
-        <li class="nav-item active back-color-about">
-        <a class=" aboutme1 nav-item  list-inline-item" href="#about">About Me</a>
-      </li>
-      <li class="nav-item active back-color-work">
-        <a class="mywork1 nav-link  list-inline-item" href="#work">My Work<span class="sr-only"></span></a>
-      </li>
-      <li class="nav-item back-color-contact">
-        <a class="contactme1 nav-link  list-inline-item" href="#contact">Contact Me</a>
-      </li>
-      <li class="nav-item back-color-download">
-        <a class="download1 nav-link " href="Assets/CV/cv.docx" download="MyCV">Download</a>
-      </li>
-    </ul>
-  </div>
-</nav>
-<!------------navbar >675px-->
-<nav id="smnav" class="navbar navbar-inverse navsmall" >
-  <div class="container-fluid">
-    <div class="navbar-header">
-    <li class="dropdown">
-          <a  id="smnavicon" class="dropdown-toggle glyphicon glyphicon-menu-hamburger" data-toggle="dropdown"><span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#work">My Work</a></li>
-            <li><a href="#contact">Contact Me</a></li>
-            <li><a class="download1 nav-link " href="Assets/CV/cv.docx" download="MyCV">Download</a></li>
-          </ul>
-        </li>
-  </div>
-  </div>
-</nav>
 
-<!------------navbar >675px end-->
+​
 
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+    <h1 class="text-light">My Portfolio</h1>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+        <span class="navbar-toggler-icon"></span>
+
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+
+        <ul class="navbar-nav">
+
+            <li class="nav-item">
+
+                <a class="nav-link" href="#about">About me</a>
+
+            </li>
+
+            <li class="nav-item">
+
+                <a class="nav-link" href="#mywork1">My work</a>
+
+            </li>
+
+            <li class="nav-item">
+
+                <a class="nav-link" href="#contactme">Contact me</a>
+
+            </li>
+
+            <li class="nav-item">
+
+                <a class="nav-link" href="Assets/CV/cv.docx">Download CV</a>
+
+            </li>
+
+        </ul>
+
+    </div>
+
+</nav>
 
 <!-------------New Nav end-->
-  
-   <!--------------------Hero Section-->
-   <header id="hero" name="home">
-       <div class="hero contain">
-          <div>
+
+​
+
+<!--------------------Hero Section-->
+
+<header id="hero">
+
+    <div class="hero contain">
+
+        <div>
+
             <h1>Hello, <span></span></h1>
+
             <h1>My Name Is <span></span></h1>
+
             <h1>Dylan Contet <span></span></h1>
-            <a href="#nav" class="CTA">Portfolio</a>
-          </div>
-       </div>
-   </header>
+
+            <a href="#mywork1" class="CTA">Portfolio</a>
+
+        </div>
+
+    </div>
+
+</header>
+
 <!------------------------hero end   -->
 
+​
+
 <!---------------------------About me new -->
-<section class="Aboutmesection"><a name="about"></a>
-   <div>
-       <h1>About Me</h1>
-       <br>
-       <h2 class="Aboutmeh2">First of all a few points about me :</h2>
-       <ul class="Aboutmelist">
-           <li>I am enthusiastic to learn as much as possible within my role</li>
-           <li>Provide a different more technical approach to problem solving</li>
-           <li>I am a responsible and hard working employee </li>
-           <li>Provide a fresh angle on familiar things</li>
-       </ul>
-       <br>
-       <h2 class="aboutmework">Where I'v Been and what I'v Done</h2>
-        <ul class="myworklist">
-           <li>BNP PARIBAS LEASING SOLUTIONS: Account Co-Ordinator - 2018-Present</li>
-           <p> - While Working at BNP iv tried to take on as much as possible within my role this is including but not limited to, training new starters, involved in testing of our internal programmes, help with the migration of our laptops and Iv also come up with ideas that have increased our productivity and quality of life at work.</p>
-           <br>
-           <li>Up And Running: Sales Associate then Store Manager (2017-2018)</li>
-           <p> - At Up and Ruinning I learned an abundance of customer service knowledge as i was dealing with customer on a day to day basis this has fundamentally helped me to grasp the customer comes first approach, after my manager had gone on maternity leave I was appointed as the store manager, while working here I would help any customers with all querries and help them find the best product they need. </p>
-           <br>
-           <li>Londoloza Protection Group(South Africa):Stock Manager(2016 - 2017)</li>
-           <p> - At Londoloza I was introduced to managing stock and working as a team, as we worked in the security we all had to work together to provide the bes possible service to our customers. During my time here I was involved in a variety of projects and tasks some of which are help increase the presence of the business, make sure that all stock was managed and we had enough of each item should we need it.</p>
-       </ul>
-       <br>
-       <h2 class="aboutmefuture">What I Aim to Achieve</h2>
-          <p class="Futurework"> - Ever since I can remember I'v always wanted to be a developer of any kind, Front-End/Back-End/Full-Stack Web Developer, Application Developer, if it has something to do with any kind of development I am interested in it. Preferable once I am adept in my chosen field of development I would like to start studying game development on the side as I am especially interested in how only code can bring so much to life. </p>
-   </div>
+
+<section class="Aboutmesection" id="about">
+
+    <div>
+
+        <h1>About Me</h1>
+
+        <br>
+
+        <h2 class="Aboutmeh2">First of all a few points about me :</h2>
+
+        <ul class="Aboutmelist">
+
+            <li>I am enthusiastic to learn as much as possible within my role</li>
+
+            <li>Provide a different more technical approach to problem solving</li>
+
+            <li>I am a responsible and hard working employee</li>
+
+            <li>Provide a fresh angle on familiar things</li>
+
+        </ul>
+
+        <br>
+
+        <h2 class="aboutmework">Where I'v Been and what I'v Done</h2>
+
+<!--        <ul class="myworklist">-->
+
+            <h3>BNP PARIBAS LEASING SOLUTIONS: Account Co-Ordinator - 2018-Present</h3>
+
+            <p> - While Working at BNP iv tried to take on as much as possible within my role this is including but not
+
+                limited to, training new starters, involved in testing of our internal programmes, help with the
+
+                migration of our laptops and Iv also come up with ideas that have increased our productivity and quality
+
+                of life at work.</p>
+
+            <br>
+
+            <h3>Up And Running: Sales Associate then Store Manager (2017-2018)</h3>
+
+            <p> - At Up and Running I learned an abundance of customer service knowledge as i was dealing with customer
+
+                on a day to day basis this has fundamentally helped me to grasp the customer comes first approach, after
+
+                my manager had gone on maternity leave I was appointed as the store manager, while working here I would
+
+                help any customers with all queries and help them find the best product they need. </p>
+
+            <br>
+
+            <h3>Londoloza Protection Group(South Africa):Stock Manager(2016 - 2017)</h3>
+
+            <p> - At Londoloza I was introduced to managing stock and working as a team, as we worked in the security we
+
+                all had to work together to provide the bes possible service to our customers. During my time here I was
+
+                involved in a variety of projects and tasks some of which are help increase the presence of the
+
+                business, make sure that all stock was managed and we had enough of each item should we need it.</p>
+
+<!--        </ul>-->
+
+        <br>
+
+        <h2 class="aboutmefuture">What I Aim to Achieve</h2>
+
+        <p class="Futurework"> - Ever since I can remember I'v always wanted to be a developer of any kind,
+
+            Front-End/Back-End/Full-Stack Web Developer, Application Developer, if it has something to do with any kind
+
+            of development I am interested in it. Preferable once I am adept in my chosen field of development I would
+
+            like to start studying game development on the side as I am especially interested in how only code can bring
+
+            so much to life. </p>
+
+    </div>
+
 </section>
 
+​
 
+​
 
 <!---------------------------About me new end -->
 
+​
+
+​
 
 <!---------------------------my work section  -->
-<section id="mywork1" class=" container-fluid"><a name="work"></a>
- <h1 class="mywork">My Work</h1>
- <div class="row">
-    <div class="project1 col-md-6 col-sm-12">
-      <div>Project 1</div>
-      <div><a href="#" target="_blank"><img  class="image1" src="Assets/image/stock1.jpg" alt="stock1"></a></div>
-    </div>
+
+<section id="mywork1" class=" container-fluid">
+
+    <h1 class="mywork">My Work</h1>
+
+    <div class="row">
+
+        <div class="project1 col-md-6 col-sm-12">
+
+            <div>Project 1</div>
+
+            <div><a href="#" target="_blank"><img class="image1" src="Assets/image/stock1.jpg" alt="stock1"></a></div>
+
+        </div>
+
+​
 
         <div class="project2 col-md-6 col-sm-12">
-      <div>Project 2</div>
-      <div><a href="#" target="_blank"><img  class="image2" src="Assets/image/stock2.jpg" alt="stock1"></a></div>
+
+            <div>Project 2</div>
+
+            <div><a href="#" target="_blank"><img class="image2" src="Assets/image/stock2.jpg" alt="stock1"></a></div>
+
+        </div>
+
     </div>
-   </div>
- 
+
+​
+
 </section>
+
 <!---------------------------my work section end -->
 
+​
+
 <!---------------------------Cpntact ME -->
-<section id="Contactme"><a name="contact"></a>
+
+<section id="contactme">
+
     <h1 class="contme">Contact Me</h1>
 
-     <div class="email">
-       <div>Email <a href="mailto:contetdylan5@gmail.com" target="_blank"><i class="far fa-envelope-open"></i></a></div>
-     </div>
+​
 
-     <div class="linkin">
-       <div>LinkedIn <a href="https://www.linkedin.com/in/dylan-contet-439024116/" target="_blank"><i class="fab fa-linkedin"></i></a></div>
-     </div>
+    <div class="email">
 
-     <div class="fb">
-       <div>Facebook <a href="https://www.facebook.com/dylanjohn.contet/" target="_blank"><i class="fab fa-facebook"></i></a></div>
-     </div>     
+        <div>Email <a href="mailto:contetdylan5@gmail.com" target="_blank"><i
 
+                class="far fa-envelope-open social-links"></i></a>
 
+        </div>
+
+    </div>
+
+​
+
+    <div class="linkin">
+
+        <div>LinkedIn <a href="https://www.linkedin.com/in/dylan-contet-439024116/" target="_blank"><i
+
+                class="fab fa-linkedin social-links"></i></a></div>
+
+    </div>
+
+​
+
+    <div class="fb">
+
+        <div>Facebook <a href="https://www.facebook.com/dylanjohn.contet/" target="_blank"><i
+
+                class="fab fa-facebook social-links"></i></a></div>
+
+    </div>
+
+​
+
+​
 
 </section>
+
 <!---------------------------Cpntact ME End-->
+
+​
 
 <!---------------------------Footer-->
 
+​
+
+​
 
 <footer id="footer">
-   <p class="end">Website Created by Dylan John Contet</p>
 
-   <div>
-      <div class="cvdown"><p>Please feel free to download a hardcopy of my cv here <a href="Assets/CV/cv.docx" download="MyCV"><i class="fas fa-download"></i></a></p></div>   
-   </div>
-<br>
-   
+    <p class="end">Website Created by Dylan John Contet</p>
 
-  
-</footer>
-  <video width="100" height="400" controls class="vid1">
-      <source src="Assets/VIdeo/video.mp4" type=video/mp4>
-    </video>
-<!---------------------------Footer ENd -->
+​
 
- <!-------------------------------POP UP  -->
-<div id="myModal" class="modal fade popup" role="dialog">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <div class="modal-title"><h1>Welcome</h1></div>
-      </div>
-      <div class="modal-body">
-        <p>To my Portfolio Website I hope you like it</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
+    <div>
+
+        <div class="cvdown"><p>Please feel free to download a hardcopy of my cv here <a href="Assets/CV/cv.docx"
+
+                                                                                        download="MyCV"><i
+
+                class="fas fa-download"></i></a></p></div>
+
     </div>
 
-  </div>
+    <br>
+
+​
+
+​
+
+</footer>
+
+<video width="100" height="400" controls class="vid1">
+
+    <source src="Assets/VIdeo/video.mp4" type=video/mp4>
+
+</video>
+
+<!---------------------------Footer ENd -->
+
+​
+
+<!-------------------------------POP UP  -->
+
+<div id="myModal" class="modal fade popup" role="dialog">
+
+    <div class="modal-dialog">
+
+        <div class="modal-content">
+
+            <div class="modal-header">
+
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+                <div class="modal-title"><h1>Welcome</h1></div>
+
+            </div>
+
+            <div class="modal-body">
+
+                <p>To my Portfolio Website I hope you like it</p>
+
+            </div>
+
+            <div class="modal-footer">
+
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+            </div>
+
+        </div>
+
+​
+
+    </div>
+
 </div>
 
-<button type="button" class="btn btn-sm" data-toggle="modal" data-target="#myModal" style="visibility:hidden;">Open Modal</button>
+​
+
+<button type="button" class="btn btn-sm" data-toggle="modal" data-target="#myModal" style="visibility:hidden;">Open
+
+    Modal
+
+</button>
+
+​
 
 <script type="">
+
   $(document).ready(function (){
+
    setTimeout(function () {
+
        $("#myModal") .modal('show');
+
    }, 500);
 
+​
+
   })
+
+​
+
+​
+
 </script>
 
-   
+​
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+
+        crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+
+        crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+
+        crossorigin="anonymous"></script>
+
+​
+
 <!---------------------------POP UP END -->
+
 </body>
+
 </html>
+
