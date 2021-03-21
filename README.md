@@ -50,6 +50,28 @@ As a Frequent user, I want to be able to contact the individual if need be. <br>
 
 
 ## Wireframes
+Hero<br>
+![Hero Image](assets/image/herod.jpg)<br>
+Hero Mobile <br>
+![Hero Image](assets/image/herom.jpg)<br>
+About Page<br>
+![Hero Image](assets/image/aboutmed.jpg)<br>
+About Page mobile<br>
+![Hero Image](assets/image/aboutmem.jpg)<br>
+My Work<br>
+![Hero Image](assets/image/myworkd)<br>
+My Work Mobile<br>
+![Hero Image](assets/image/myworkm)<br>
+Contact Me<br>
+![Hero Image](assets/image/contactd.jpg)<br>
+Contact Me Mobile<br>
+![Hero Image](assets/image/contactm.jpg)<br>
+Footer<br>
+![Hero Image](assets/image/footerd.jpg)<br>
+Footer<br>
+![Hero Image](assets/image/footerm.jpg)<br>
+
+
 
 ***
 
