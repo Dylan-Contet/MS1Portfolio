@@ -104,22 +104,25 @@ Please note these results are a .xlsx file and will require excel, google docs o
 All Pages were run through the [W3C HTML Validator]and showed no errors.<br>
 CSS Stylesheet was run through the [W3C CSS Validator] and showed no errors.<br>
 
-Test 01 - Test responsiveness of website on various screen sizes on Firefox. Website's responsive, no images are distorted and all elements are within the correct sizes 
-Test 02 - Test responsiveness of website on various screen sizes on Safari.  Website's responsive, no images are distorted and all elements are within the correct sizes 
-Test 03 - Test responsiveness of website on various screen sizes on Chrome.  Website's responsive, no images are distorted and all elements are within the correct sizes 
-Test 04 - Test the relevante links (such as download CV and contact me links) on 3 different browsers  (Chrome, Safari & Firefox) - All clickable links work and produce the allocated outcome.
-Test 05 - Hover elemnt changes color on hover - On hover the appropriate element will change colour
-Test 06 - Website implementation vs Actual implementation - Although the original goal was to have all pages as their own page the flow was better on a 1 paged different section website.
+Test 01 - Test responsiveness of website on various screen sizes on Firefox. Website's responsive, no images are distorted and all elements are within the correct sizes. <br>
+Test 02 - Test responsiveness of website on various screen sizes on Safari.  Website's responsive, no images are distorted and all elements are within the correct sizes. <br>
+Test 03 - Test responsiveness of website on various screen sizes on Chrome.  Website's responsive, no images are distorted and all elements are within the correct sizes. <br>
+Test 04 - Test the relevante links (such as download CV and contact me links) on 3 different browsers  (Chrome, Safari & Firefox) - All clickable links work and produce the allocated outcome. <br>
+Test 05 - Hover elemnt changes color on hover - On hover the appropriate element will change colour. <br>
+Test 06 - Website implementation vs Actual implementation - Although the original goal was to have all pages as their own page the flow was better on a 1 paged different section website. <br>
 
 
 
 ### Issues and Resolutions to issues found during testing
-Issue 1 - Navigation menu wouldn't shrink to smaller screens - Using bootstrap to create 1 nav menu instead of 2 different ones for screensizes made it easy so solve this issue.
-Issue 2 - Pop up wouldn't scale with screen size - Gave it a variable sizes rather than fixed to allow for scaling 
-Issue 3 - Clicking on portflio button was not going to correct place on page - fixed by assigning it a location to go to 
-Issue 4 - Download link no working - fixed for somereason was not allowing the download.
+Issue 1 - Navigation menu wouldn't shrink to smaller screens - Using bootstrap to create 1 nav menu instead of 2 different ones for screensizes made it easy so solve this issue.<br>
+Issue 2 - Pop up wouldn't scale with screen size - Gave it a variable sizes rather than fixed to allow for scaling. <br>
+Issue 3 - Clicking on portflio button was not going to correct place on page - fixed by assigning it a location to go to. <br>
+Issue 4 - Download link no working - fixed for somereason was not allowing the download.<br>
 
-
+### Issues with no known Resolutions
+I have found that my website has a hotizontal scroll, of about 5mm wide, going through multiple fourms and through various channels of people no known fix for this is apparent.
+There is no hidden variables that are makeing the horizonal scroll.
+When looking through the website please be mindful of this.
 
 
 ***
