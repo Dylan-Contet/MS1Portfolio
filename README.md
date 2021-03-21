@@ -59,16 +59,16 @@ About Page<br>
 About Page mobile<br>
 ![Hero Image](assets/image/aboutmem.jpg)<br>
 My Work<br>
-![Hero Image](assets/image/myworkd)<br>
+![Hero Image](assets/image/myworkd.jpg)<br>
 My Work Mobile<br>
-![Hero Image](assets/image/myworkm)<br>
+![Hero Image](assets/image/myworkm.jpg)<br>
 Contact Me<br>
 ![Hero Image](assets/image/contactd.jpg)<br>
 Contact Me Mobile<br>
 ![Hero Image](assets/image/contactm.jpg)<br>
 Footer<br>
 ![Hero Image](assets/image/footerd.jpg)<br>
-Footer<br>
+Footer Mobile<br>
 ![Hero Image](assets/image/footerm.jpg)<br>
 
 
