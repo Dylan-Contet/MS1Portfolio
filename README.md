@@ -67,9 +67,9 @@ Contact Me<br>
 Contact Me Mobile<br>
 ![Hero Image](assets/image/contactm.jpg)<br>
 Footer<br>
-![Hero Image](assets/image/footerd.jpg)<br>
-Footer Mobile<br>
 ![Hero Image](assets/image/footerm.jpg)<br>
+Footer Mobile<br>
+![Hero Image](assets/image/footerd.jpg)<br>
 
 
 
