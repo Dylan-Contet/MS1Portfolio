@@ -79,8 +79,7 @@ Footer Mobile<br>
 
 * HTML
 	* This project uses HTML as the main language used to complete the structure of the Website.
-* CSS
-	* This project uses custom written CSS to style the Website.
+	* The Video added at the bottom of the HTML was to show people in which country I live.
 * [Bootstrap]
 	* The Bootstrap framework is used throughout this website for layouts and styling. The car
 	* This has also been used to import JavaScript/Query used for the pop up Event booking modal
