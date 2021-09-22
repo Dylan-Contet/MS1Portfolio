@@ -136,7 +136,3 @@ When looking through the website please be mindful of this.
 
 ### Media
 The photos and videos are all copy right free assets found from various websites 
-
-### Acknowledgements
-
-I'd like to thank my mentor Spencer Baribell for his guidance throughout my project.<br>
